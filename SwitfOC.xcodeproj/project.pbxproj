@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993D9A54216F033C0078E0AF /* swiftfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993D9A53216F033C0078E0AF /* swiftfile.swift */; };
+		99AF9A11217423FE00CDDF44 /* BarChartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AF9A10217423FE00CDDF44 /* BarChartsController.m */; };
+		99AF9A1E21743AEA00CDDF44 /* HorizontalBarChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AF9A1D21743AEA00CDDF44 /* HorizontalBarChartController.m */; };
+		99AF9A2821747DA900CDDF44 /* RadarChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AF9A2721747DA900CDDF44 /* RadarChartController.m */; };
+		99AF9A30217582AC00CDDF44 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AF9A2F217582AC00CDDF44 /* ModelController.m */; };
+		99AF9A342175858F00CDDF44 /* BubbleChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AF9A332175858F00CDDF44 /* BubbleChartController.m */; };
+		99F7F0D72170540B00C5660B /* LineChartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F7F0D62170540B00C5660B /* LineChartsController.m */; };
+		99F7F0DA2170541D00C5660B /* PieChartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F7F0D92170541D00C5660B /* PieChartsController.m */; };
+		99F9E683216CB7E200AF1227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F9E682216CB7E200AF1227 /* AppDelegate.m */; };
+		99F9E686216CB7E200AF1227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F9E685216CB7E200AF1227 /* ViewController.m */; };
+		99F9E68B216CB7E200AF1227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F9E68A216CB7E200AF1227 /* Assets.xcassets */; };
+		99F9E68E216CB7E200AF1227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F9E68C216CB7E200AF1227 /* LaunchScreen.storyboard */; };
+		99F9E691216CB7E200AF1227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F9E690216CB7E200AF1227 /* main.m */; };
+		99F9E69B216CB7E200AF1227 /* SwitfOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F9E69A216CB7E200AF1227 /* SwitfOCTests.m */; };
+		99F9E6A6216CB7E200AF1227 /* SwitfOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F9E6A5216CB7E200AF1227 /* SwitfOCUITests.m */; };
+		99F9E6B5216CB80100AF1227 /* texst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9E6B4216CB80100AF1227 /* texst.swift */; };
+		AF162CB1506AD41A947A46DB /* Pods_SwitfOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1675E13B5F0B5BF292570934 /* Pods_SwitfOC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99F9E697216CB7E200AF1227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F9E676216CB7E100AF1227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F9E67D216CB7E200AF1227;
+			remoteInfo = SwitfOC;
+		};
+		99F9E6A2216CB7E200AF1227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F9E676216CB7E100AF1227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F9E67D216CB7E200AF1227;
+			remoteInfo = SwitfOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1675E13B5F0B5BF292570934 /* Pods_SwitfOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitfOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54918705B011FCDFDAE4A990 /* Pods-SwitfOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitfOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwitfOC/Pods-SwitfOC.debug.xcconfig"; sourceTree = "<group>"; };
+		60F1C183A9470F3731851EB4 /* Pods-SwitfOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitfOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwitfOC/Pods-SwitfOC.release.xcconfig"; sourceTree = "<group>"; };
+		993D9A52216F033C0078E0AF /* SwitfOC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitfOC-Bridging-Header.h"; sourceTree = "<group>"; };
+		993D9A53216F033C0078E0AF /* swiftfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftfile.swift; sourceTree = "<group>"; };
+		99AF9A0F217423FE00CDDF44 /* BarChartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarChartsController.h; sourceTree = "<group>"; };
+		99AF9A10217423FE00CDDF44 /* BarChartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarChartsController.m; sourceTree = "<group>"; };
+		99AF9A1C21743AEA00CDDF44 /* HorizontalBarChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalBarChartController.h; sourceTree = "<group>"; };
+		99AF9A1D21743AEA00CDDF44 /* HorizontalBarChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalBarChartController.m; sourceTree = "<group>"; };
+		99AF9A2621747DA900CDDF44 /* RadarChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarChartController.h; sourceTree = "<group>"; };
+		99AF9A2721747DA900CDDF44 /* RadarChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarChartController.m; sourceTree = "<group>"; };
+		99AF9A2E217582AC00CDDF44 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		99AF9A2F217582AC00CDDF44 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		99AF9A322175858F00CDDF44 /* BubbleChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleChartController.h; sourceTree = "<group>"; };
+		99AF9A332175858F00CDDF44 /* BubbleChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleChartController.m; sourceTree = "<group>"; };
+		99F7F0D52170540B00C5660B /* LineChartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineChartsController.h; sourceTree = "<group>"; };
+		99F7F0D62170540B00C5660B /* LineChartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChartsController.m; sourceTree = "<group>"; };
+		99F7F0D82170541D00C5660B /* PieChartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChartsController.h; sourceTree = "<group>"; };
+		99F7F0D92170541D00C5660B /* PieChartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartsController.m; sourceTree = "<group>"; };
+		99F9E67E216CB7E200AF1227 /* SwitfOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitfOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F9E681216CB7E200AF1227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99F9E682216CB7E200AF1227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99F9E684216CB7E200AF1227 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99F9E685216CB7E200AF1227 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99F9E68A216CB7E200AF1227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F9E68D216CB7E200AF1227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99F9E68F216CB7E200AF1227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F9E690216CB7E200AF1227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99F9E696216CB7E200AF1227 /* SwitfOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitfOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F9E69A216CB7E200AF1227 /* SwitfOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitfOCTests.m; sourceTree = "<group>"; };
+		99F9E69C216CB7E200AF1227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F9E6A1216CB7E200AF1227 /* SwitfOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitfOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F9E6A5216CB7E200AF1227 /* SwitfOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitfOCUITests.m; sourceTree = "<group>"; };
+		99F9E6A7216CB7E200AF1227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F9E6B3216CB80000AF1227 /* SwitfOCTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitfOCTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		99F9E6B4216CB80100AF1227 /* texst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = texst.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F9E67B216CB7E200AF1227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF162CB1506AD41A947A46DB /* Pods_SwitfOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9E693216CB7E200AF1227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9E69E216CB7E200AF1227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F40CC81427D0C2CD3FD0A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1675E13B5F0B5BF292570934 /* Pods_SwitfOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99F9E675216CB7E100AF1227 = {
+			isa = PBXGroup;
+			children = (
+				99F9E680216CB7E200AF1227 /* SwitfOC */,
+				99F9E699216CB7E200AF1227 /* SwitfOCTests */,
+				99F9E6A4216CB7E200AF1227 /* SwitfOCUITests */,
+				99F9E67F216CB7E200AF1227 /* Products */,
+				FA9014AC873660B106D0F969 /* Pods */,
+				8F40CC81427D0C2CD3FD0A58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99F9E67F216CB7E200AF1227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F9E67E216CB7E200AF1227 /* SwitfOC.app */,
+				99F9E696216CB7E200AF1227 /* SwitfOCTests.xctest */,
+				99F9E6A1216CB7E200AF1227 /* SwitfOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F9E680216CB7E200AF1227 /* SwitfOC */ = {
+			isa = PBXGroup;
+			children = (
+				99F9E681216CB7E200AF1227 /* AppDelegate.h */,
+				99F9E682216CB7E200AF1227 /* AppDelegate.m */,
+				99F9E684216CB7E200AF1227 /* ViewController.h */,
+				99F9E685216CB7E200AF1227 /* ViewController.m */,
+				99F7F0D52170540B00C5660B /* LineChartsController.h */,
+				99F7F0D62170540B00C5660B /* LineChartsController.m */,
+				99F7F0D82170541D00C5660B /* PieChartsController.h */,
+				99F7F0D92170541D00C5660B /* PieChartsController.m */,
+				99AF9A0F217423FE00CDDF44 /* BarChartsController.h */,
+				99AF9A10217423FE00CDDF44 /* BarChartsController.m */,
+				99AF9A1C21743AEA00CDDF44 /* HorizontalBarChartController.h */,
+				99AF9A1D21743AEA00CDDF44 /* HorizontalBarChartController.m */,
+				99AF9A2621747DA900CDDF44 /* RadarChartController.h */,
+				99AF9A2721747DA900CDDF44 /* RadarChartController.m */,
+				99AF9A322175858F00CDDF44 /* BubbleChartController.h */,
+				99AF9A332175858F00CDDF44 /* BubbleChartController.m */,
+				99AF9A2E217582AC00CDDF44 /* ModelController.h */,
+				99AF9A2F217582AC00CDDF44 /* ModelController.m */,
+				99F9E68A216CB7E200AF1227 /* Assets.xcassets */,
+				99F9E68C216CB7E200AF1227 /* LaunchScreen.storyboard */,
+				99F9E68F216CB7E200AF1227 /* Info.plist */,
+				99F9E690216CB7E200AF1227 /* main.m */,
+				993D9A53216F033C0078E0AF /* swiftfile.swift */,
+				993D9A52216F033C0078E0AF /* SwitfOC-Bridging-Header.h */,
+			);
+			path = SwitfOC;
+			sourceTree = "<group>";
+		};
+		99F9E699216CB7E200AF1227 /* SwitfOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				99F9E69A216CB7E200AF1227 /* SwitfOCTests.m */,
+				99F9E69C216CB7E200AF1227 /* Info.plist */,
+				99F9E6B4216CB80100AF1227 /* texst.swift */,
+				99F9E6B3216CB80000AF1227 /* SwitfOCTests-Bridging-Header.h */,
+			);
+			path = SwitfOCTests;
+			sourceTree = "<group>";
+		};
+		99F9E6A4216CB7E200AF1227 /* SwitfOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99F9E6A5216CB7E200AF1227 /* SwitfOCUITests.m */,
+				99F9E6A7216CB7E200AF1227 /* Info.plist */,
+			);
+			path = SwitfOCUITests;
+			sourceTree = "<group>";
+		};
+		FA9014AC873660B106D0F969 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54918705B011FCDFDAE4A990 /* Pods-SwitfOC.debug.xcconfig */,
+				60F1C183A9470F3731851EB4 /* Pods-SwitfOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F9E67D216CB7E200AF1227 /* SwitfOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F9E6AA216CB7E200AF1227 /* Build configuration list for PBXNativeTarget "SwitfOC" */;
+			buildPhases = (
+				8291E0470CF63EC919893CAE /* [CP] Check Pods Manifest.lock */,
+				99F9E67A216CB7E200AF1227 /* Sources */,
+				99F9E67B216CB7E200AF1227 /* Frameworks */,
+				99F9E67C216CB7E200AF1227 /* Resources */,
+				CACE5AE6FC175CD9AD845DCD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitfOC;
+			productName = SwitfOC;
+			productReference = 99F9E67E216CB7E200AF1227 /* SwitfOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99F9E695216CB7E200AF1227 /* SwitfOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F9E6AD216CB7E200AF1227 /* Build configuration list for PBXNativeTarget "SwitfOCTests" */;
+			buildPhases = (
+				99F9E692216CB7E200AF1227 /* Sources */,
+				99F9E693216CB7E200AF1227 /* Frameworks */,
+				99F9E694216CB7E200AF1227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F9E698216CB7E200AF1227 /* PBXTargetDependency */,
+			);
+			name = SwitfOCTests;
+			productName = SwitfOCTests;
+			productReference = 99F9E696216CB7E200AF1227 /* SwitfOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99F9E6A0216CB7E200AF1227 /* SwitfOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F9E6B0216CB7E200AF1227 /* Build configuration list for PBXNativeTarget "SwitfOCUITests" */;
+			buildPhases = (
+				99F9E69D216CB7E200AF1227 /* Sources */,
+				99F9E69E216CB7E200AF1227 /* Frameworks */,
+				99F9E69F216CB7E200AF1227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F9E6A3216CB7E200AF1227 /* PBXTargetDependency */,
+			);
+			name = SwitfOCUITests;
+			productName = SwitfOCUITests;
+			productReference = 99F9E6A1216CB7E200AF1227 /* SwitfOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F9E676216CB7E100AF1227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ztzn;
+				TargetAttributes = {
+					99F9E67D216CB7E200AF1227 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					99F9E695216CB7E200AF1227 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 99F9E67D216CB7E200AF1227;
+					};
+					99F9E6A0216CB7E200AF1227 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 99F9E67D216CB7E200AF1227;
+					};
+				};
+			};
+			buildConfigurationList = 99F9E679216CB7E100AF1227 /* Build configuration list for PBXProject "SwitfOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F9E675216CB7E100AF1227;
+			productRefGroup = 99F9E67F216CB7E200AF1227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F9E67D216CB7E200AF1227 /* SwitfOC */,
+				99F9E695216CB7E200AF1227 /* SwitfOCTests */,
+				99F9E6A0216CB7E200AF1227 /* SwitfOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F9E67C216CB7E200AF1227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9E68E216CB7E200AF1227 /* LaunchScreen.storyboard in Resources */,
+				99F9E68B216CB7E200AF1227 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9E694216CB7E200AF1227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9E69F216CB7E200AF1227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8291E0470CF63EC919893CAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwitfOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CACE5AE6FC175CD9AD845DCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwitfOC/Pods-SwitfOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwitfOC/Pods-SwitfOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F9E67A216CB7E200AF1227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AF9A11217423FE00CDDF44 /* BarChartsController.m in Sources */,
+				99F9E686216CB7E200AF1227 /* ViewController.m in Sources */,
+				99F7F0DA2170541D00C5660B /* PieChartsController.m in Sources */,
+				99F9E691216CB7E200AF1227 /* main.m in Sources */,
+				99F7F0D72170540B00C5660B /* LineChartsController.m in Sources */,
+				99AF9A2821747DA900CDDF44 /* RadarChartController.m in Sources */,
+				99F9E683216CB7E200AF1227 /* AppDelegate.m in Sources */,
+				99AF9A342175858F00CDDF44 /* BubbleChartController.m in Sources */,
+				99AF9A30217582AC00CDDF44 /* ModelController.m in Sources */,
+				99AF9A1E21743AEA00CDDF44 /* HorizontalBarChartController.m in Sources */,
+				993D9A54216F033C0078E0AF /* swiftfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9E692216CB7E200AF1227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9E6B5216CB80100AF1227 /* texst.swift in Sources */,
+				99F9E69B216CB7E200AF1227 /* SwitfOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F9E69D216CB7E200AF1227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9E6A6216CB7E200AF1227 /* SwitfOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F9E698216CB7E200AF1227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F9E67D216CB7E200AF1227 /* SwitfOC */;
+			targetProxy = 99F9E697216CB7E200AF1227 /* PBXContainerItemProxy */;
+		};
+		99F9E6A3216CB7E200AF1227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F9E67D216CB7E200AF1227 /* SwitfOC */;
+			targetProxy = 99F9E6A2216CB7E200AF1227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99F9E68C216CB7E200AF1227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F9E68D216CB7E200AF1227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99F9E6A8216CB7E200AF1227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = SwitfOC;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
+			};
+			name = Debug;
+		};
+		99F9E6A9216CB7E200AF1227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = SwitfOC;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F9E6AB216CB7E200AF1227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54918705B011FCDFDAE4A990 /* Pods-SwitfOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 276H6V85QN;
+				INFOPLIST_FILE = SwitfOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.123.SwitfOC;
+				PRODUCT_MODULE_NAME = SwitfOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwitfOC/SwitfOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99F9E6AC216CB7E200AF1227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F1C183A9470F3731851EB4 /* Pods-SwitfOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 276H6V85QN;
+				INFOPLIST_FILE = SwitfOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.123.SwitfOC;
+				PRODUCT_MODULE_NAME = SwitfOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwitfOC/SwitfOC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		99F9E6AE216CB7E200AF1227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitfOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.123.SwitfOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwitfOCTests/SwitfOCTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitfOC.app/SwitfOC";
+			};
+			name = Debug;
+		};
+		99F9E6AF216CB7E200AF1227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitfOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.123.SwitfOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwitfOCTests/SwitfOCTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitfOC.app/SwitfOC";
+			};
+			name = Release;
+		};
+		99F9E6B1216CB7E200AF1227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitfOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.123.SwitfOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitfOC;
+			};
+			name = Debug;
+		};
+		99F9E6B2216CB7E200AF1227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitfOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.js.123.SwitfOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitfOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F9E679216CB7E100AF1227 /* Build configuration list for PBXProject "SwitfOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9E6A8216CB7E200AF1227 /* Debug */,
+				99F9E6A9216CB7E200AF1227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F9E6AA216CB7E200AF1227 /* Build configuration list for PBXNativeTarget "SwitfOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9E6AB216CB7E200AF1227 /* Debug */,
+				99F9E6AC216CB7E200AF1227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F9E6AD216CB7E200AF1227 /* Build configuration list for PBXNativeTarget "SwitfOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9E6AE216CB7E200AF1227 /* Debug */,
+				99F9E6AF216CB7E200AF1227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F9E6B0216CB7E200AF1227 /* Build configuration list for PBXNativeTarget "SwitfOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9E6B1216CB7E200AF1227 /* Debug */,
+				99F9E6B2216CB7E200AF1227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F9E676216CB7E100AF1227 /* Project object */;
+}
